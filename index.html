@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>evaluation_integration</title>
+</head>
+
+<body>
+    <header>
+        <div class="photo-header">
+            <!--Menu-->
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                    data-bs-display="static" aria-expanded="false">
+                    <img src="https://c.neh.tw/thumb/f/350/comhiclipartzkzpp.jpg" width="20" />
+                </button>
+                <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-start">
+                    <li><button class="dropdown-item" type="button">Louer une voiture</button></li>
+                    <li><button class="dropdown-item" type="button">Louer un utilitaire</button></li>
+                    <li><button class="dropdown-item" type="button">Réserver un chauffeur</button></li>
+                    <li><button class="dropdown-item" type="button">Découvrez nos agences</button></li>
+                    <li><button class="dropdown-item" type="button">Mon compte</button></li>
+                    <li><button class="dropdown-item" type="button">Contact</button></li>
+                </ul>
+            </div>
+            <h1>Bienvenue à bord</h1>
+            <h2>Location voiture 24h24 7j/7</h2>
+
+            <!--Partie adresse et dates-->
+            <form class="formulaire">
+                <div class="dates">
+                    <div class="form-group">
+                        <input type="adress" class="form-control" placeholder="Adresse de départ">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control">
+                    </div>
+                </div>
+                <div class="valider">
+                    <button type="submit" class="btn btn-success">Valider ma recherche</button>
+                </div>
+            </form>
+        </div>
+    </header>
+
+    <!--Partie voitures-->
+    <div class="voitures">
+
+        <div class="voitures-resultats">
+            <h3>7 résultats</h3>
+            <div class="btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown"
+                    data-bs-display="static" aria-expanded="false">
+                    Prix croissant
+                </button>
+                <ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-start">
+                    <li><button class="dropdown-item" type="button">110 euros/jour</button></li>
+                    <li><button class="dropdown-item" type="button">160 euros/jour</button></li>
+                    <li><button class="dropdown-item" type="button">200 euros/jour</button></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="voiture-item">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="voiture"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQcYLGEO_69b0WAcSQntKdXTmZD8DHXWorg&usqp=CAU"
+                            class="d-block w-100" alt="location image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="voiture"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQcYLGEO_69b0WAcSQntKdXTmZD8DHXWorg&usqp=CAU"
+                            class="d-block w-100" alt="location image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="voiture"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQcYLGEO_69b0WAcSQntKdXTmZD8DHXWorg&usqp=CAU"
+                            class="d-block w-100" alt="location image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="div">
+                <button type="submit" class="btn btn-success">Réserver et payer</button>
+            </div>
+        </div>
+        <div class="voiture-item">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="voiture"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQcYLGEO_69b0WAcSQntKdXTmZD8DHXWorg&usqp=CAU"
+                            class="d-block w-100" alt="location image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="voiture"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQcYLGEO_69b0WAcSQntKdXTmZD8DHXWorg&usqp=CAU"
+                            class="d-block w-100" alt="location image">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="voiture"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDQcYLGEO_69b0WAcSQntKdXTmZD8DHXWorg&usqp=CAU"
+                            class="d-block w-100" alt="location image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="div">
+                <button type="submit" class="btn btn-success">Réserver et payer</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
